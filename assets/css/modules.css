@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+/* Estilos para contacto */
+#contact .thm-container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#contact .contact-form-content {
+    background: #F5F6FA;
+    padding: 80px 0;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#contact .thm-container .title {
+    margin-bottom: 50px;
+}
+
+#contact .thm-container .title span {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #FF4328;
+}
+
+#contact .thm-container .title h2 {
+    color: #212121;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+#contact .contact-form input, 
+#contact .contact-form textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 68px;
+    border-radius: 35px;
+    background: #fff;
+    color: #757575;
+    font-size: 16px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#contact .contact-form textarea {
+    height: 182px;
+    padding-top: 20px;
+}
+
+#contact .thm-btn {
+    border: none;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    background: #ff7b3e;
+    color: #ffffff;
+    border-radius: 35px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    padding: 18px 69px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+#contact .contact-info {
+    margin-left: 0px;
+    border: 2px solid #EBEDF4;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    height: 100%;
+}
+
+#contact .single-contact-info h4 {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#contact .contact-info .social a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 59px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+    display:inline-block;
+    font-family: FontAwesome;
+    margin:5px;
+}
+
+#contact .contact-info .social a.fa-twitter {
+    background: #ff7b3e;
+}
+
+#contact .contact-info .social a.fa-pinterest {
+    background: #212121;
+}
+
+#contact .contact-info .social a.fa-facebook-f {
+    background: #2884C6;
+}
+
+#contact .contact-info .social a.fa-youtube {
+    background: #FF4328;
+}
+
+#contact .map {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#contact .map h2 {
+    color: #212121;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact .map .single-contact-info {
+    text-align: center;
+}
+
+#contact .map .single-contact-info .social i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 59px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+    display:inline-block;
+    font-family: FontAwesome;
+    margin:5px;
+}
+
+#contact .map .single-contact-info .social i.fa-map-marker {
+    background: #FF4328;
+}
+
+#contact .map .single-contact-info .social {
+    margin-bottom: 30px;
+}
+
+/* Estilos para la biblioteca */
+#library a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+#library .card-information {
+  margin: 60px auto;
+  max-height: 400px;
+  width: 450px;
+  background: #fff;
+  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+#library .card-information .top {
+  position: relative;
+  height: 570px;
+  width: 100%;
+  overflow: hidden;
+  background: url("https://www.comunidadbaratz.com/wp-content/uploads/Las-bibliotecas-publicas-no-paran-de-evolucionar-para-ofrecer-un-mejor-servicio-basado-en-la-necesidad-y-en-la-utilidad.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+#library .card-information .top .wrapper {
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+#library .card-information .top .wrapper .mynav {
+  height: 20px;
+}
+#library .card-information .top .wrapper .mynav .lnr {
+  color: #fff;
+  font-size: 20px;
+}
+#library .card-information .top .wrapper .mynav .lnr-chevron-left {
+  display: inline-block;
+  float: left;
+}
+#library .card-information .top .wrapper .mynav .lnr-cog {
+  display: inline-block;
+  float: right;
+}
+#library .card-information .top .wrapper .heading {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+#library .card-information .top .wrapper .location {
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #fff;
+}
+#library .card-information .top .wrapper .temp {
+  margin-top: 20px;
+}
+#library .card-information .top .wrapper .temp a {
+  text-decoration: none;
+  color: #fff;
+}
+#library .card-information .top .wrapper .temp a .temp-type {
+  font-size: 85px;
+}
+#library .card-information .top .wrapper .temp .temp-value {
+  display: inline-block;
+  font-size: 85px;
+  font-weight: 600;
+  color: #fff;
+}
+#library .card-information .top .wrapper .temp .deg {
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  vertical-align: top;
+  margin-top: 10px;
+}
+#library .card-information .top:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+#library .card-information .bottom {
+  padding: 0 30px;
+  background: #fff;
+}
+#library .card-information .bottom .wrapper .forecast {
+  overflow: hidden;
+  margin: 0;
+  font-size: 0;
+  padding: 0;
+  padding-top: 20px;
+  max-height: 155px;
+}
+#library .card-information .bottom .wrapper .forecast a {
+  text-decoration: none;
+  color: #000;
+}
+#library .card-information .bottom .wrapper .forecast .go-up {
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#library .card-information .bottom .wrapper .forecast li {
+  display: block;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.25);
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+#library .card-information .bottom .wrapper .forecast li .date {
+  display: inline-block;
+}
+#library .card-information .bottom .wrapper .forecast li .condition {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  font-size: 25px;
+}
+#library .card-information .bottom .wrapper .forecast li .condition .temp {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 2px;
+}
+#library .card-information .bottom .wrapper .forecast li .condition .temp .deg {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 3px;
+  vertical-align: top;
+}
+#library .card-information .bottom .wrapper .forecast li .condition .temp .temp-type {
+  font-size: 20px;
+}
+#library .card-information .bottom .wrapper .forecast li.active {
+  color: rgba(0, 0, 0, 0.8);
+}
+#library .card-information.state .top {
+  background: url("https://www.comunidadbaratz.com/wp-content/uploads/Las-bibliotecas-publicas-no-paran-de-evolucionar-para-ofrecer-un-mejor-servicio-basado-en-la-necesidad-y-en-la-utilidad.jpg") no-repeat;
+  background-position: center center;
+}
+
+/* Biblioteca Nacional */
+#library-national a:link, a:visited, a:active {
+    text-decoration:none;
+}
+#library-national li {
+    color: gray;
+    padding-left: 30px;
+}
+#library-national .bg-orange {
+    background:#d8622b;color:#fff!important;
+}
+#library-national img {
+    width:100%;max-height:560px;
+}
+#library-national a {
+    color:#696969;
+}
+/* Biblioteca Estatal */
+#library-state #title-head h1 {
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+}
+#library-state #title-category h3 {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#library-state #information-category {
+    text-align: center;
+    margin-bottom: 100px;
+}
+#library-state #information-category .btn-default {
+    background-color: #9d2449!important;
+    color: #ffffff;
+}
+#library-state #information-category a {
+    color: #000000
+}
+#library-state a:link, a:visited, a:active {
+    text-decoration:none;
+}
+#library-state li {
+    color: gray;
+    padding-left: 30px;
+}
+#library-state .bg-orange {
+    background:#d8622b;color:#fff!important;
+}
+#library-state img {
+    width:100%;max-height:560px;
+}
+#library-state {
+    color:#696969;
+}
+
+#library .card-information-ley {
+  margin: 60px auto;
+  max-height: 400px;
+  width: 450px;
+  background: #fff;
+  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+#library .card-information-ley .top {
+  position: relative;
+  height: 570px;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+#library .card-information-ley .top .wrapper {
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+#library .card-information-ley .top .wrapper .mynav {
+  height: 20px;
+}
+#library .card-information-ley .top .wrapper .mynav .lnr {
+  color: #fff;
+  font-size: 20px;
+}
+#library .card-information-ley .top .wrapper .mynav .lnr-chevron-left {
+  display: inline-block;
+  float: left;
+}
+#library .card-information-ley .top .wrapper .mynav .lnr-cog {
+  display: inline-block;
+  float: right;
+}
+#library .card-information-ley .top .wrapper .heading {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+#library .card-information-ley .top .wrapper .location {
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #fff;
+}
+#library .card-information-ley .top .wrapper .temp {
+  margin-top: 20px;
+}
+#library .card-information-ley .top .wrapper .temp a {
+  text-decoration: none;
+  color: #fff;
+}
+#library .card-information-ley .top .wrapper .temp a .temp-type {
+  font-size: 85px;
+}
+#library .card-information-ley .top .wrapper .temp .temp-value {
+  display: inline-block;
+  font-size: 85px;
+  font-weight: 600;
+  color: #fff;
+}
+#library .card-information-ley .top .wrapper .temp .deg {
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  vertical-align: top;
+  margin-top: 10px;
+}
+#library .card-information-ley .top:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+#library .card-information-ley .bottom {
+  padding: 0 30px;
+  background: #fff;
+}
+#library .card-information-ley .bottom .wrapper .forecast {
+  overflow: hidden;
+  margin: 0;
+  font-size: 0;
+  padding: 0;
+  padding-top: 20px;
+  max-height: 155px;
+}
+#library .card-information-ley .bottom .wrapper .forecast a {
+  text-decoration: none;
+  color: #000;
+}
+#library .card-information-ley .bottom .wrapper .forecast .go-up {
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#library .card-information-ley .bottom .wrapper .forecast li {
+  display: block;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.25);
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+#library .card-information-ley .bottom .wrapper .forecast li .date {
+  display: inline-block;
+}
+#library .card-information-ley .bottom .wrapper .forecast li .condition {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  font-size: 25px;
+}
+#library .card-information-ley .bottom .wrapper .forecast li .condition .temp {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 2px;
+}
+#library .card-information-ley .bottom .wrapper .forecast li .condition .temp .deg {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 3px;
+  vertical-align: top;
+}
+#library .card-information-ley .bottom .wrapper .forecast li .condition .temp .temp-type {
+  font-size: 20px;
+}
+#library .card-information-ley .bottom .wrapper .forecast li.active {
+  color: rgba(0, 0, 0, 0.8);
+}
+#library .card-information-ley.state .top {
+  background-position: center center;
+}

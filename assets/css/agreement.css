@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+
+#agreement a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+#agreement .card-information {
+  margin: 60px auto;
+  max-height: 400px;
+  width: 450px;
+  background: #fff;
+  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+#agreement .card-information .top {
+  position: relative;
+  height: 570px;
+  width: 100%;
+  overflow: hidden;
+  background: url("https://www.coruna.gal/IMG/P_Contenido_1453604804012_1099934327828_1200_1280_U_d0a75dc4164e5ecb3959ac124b704ab0.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+#agreement .card-information .top .wrapper {
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+#agreement .card-information .top .wrapper .mynav {
+  height: 20px;
+}
+#agreement .card-information .top .wrapper .mynav .lnr {
+  color: #fff;
+  font-size: 20px;
+}
+#agreement .card-information .top .wrapper .mynav .lnr-chevron-left {
+  display: inline-block;
+  float: left;
+}
+#agreement .card-information .top .wrapper .mynav .lnr-cog {
+  display: inline-block;
+  float: right;
+}
+#agreement .card-information .top .wrapper .heading {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+#agreement .card-information .top .wrapper .location {
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #fff;
+}
+#agreement .card-information .top .wrapper .temp {
+  margin-top: 20px;
+}
+#agreement .card-information .top .wrapper .temp a {
+  text-decoration: none;
+  color: #fff;
+}
+#agreement .card-information .top .wrapper .temp a .temp-type {
+  font-size: 85px;
+}
+#agreement .card-information .top .wrapper .temp .temp-value {
+  display: inline-block;
+  font-size: 85px;
+  font-weight: 600;
+  color: #fff;
+}
+#agreement .card-information .top .wrapper .temp .deg {
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  vertical-align: top;
+  margin-top: 10px;
+}
+#agreement .card-information .top:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+#agreement .card-information .bottom {
+  padding: 0 30px;
+  background: #fff;
+}
+#agreement .card-information .bottom .wrapper .forecast {
+  overflow: hidden;
+  margin: 0;
+  font-size: 0;
+  padding: 0;
+  padding-top: 20px;
+  max-height: 155px;
+}
+#agreement .card-information .bottom .wrapper .forecast a {
+  text-decoration: none;
+  color: #000;
+}
+#agreement .card-information .bottom .wrapper .forecast .go-up {
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#agreement .card-information .bottom .wrapper .forecast li {
+  display: block;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.25);
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+#agreement .card-information .bottom .wrapper .forecast li .date {
+  display: inline-block;
+}
+#agreement .card-information .bottom .wrapper .forecast li .condition {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  font-size: 25px;
+}
+#agreement .card-information .bottom .wrapper .forecast li .condition .temp {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 2px;
+}
+#agreement .card-information .bottom .wrapper .forecast li .condition .temp .deg {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 3px;
+  vertical-align: top;
+}
+#agreement .card-information .bottom .wrapper .forecast li .condition .temp .temp-type {
+  font-size: 20px;
+}
+#agreement .card-information .bottom .wrapper .forecast li.active {
+  color: rgba(0, 0, 0, 0.8);
+}
+#agreement .card-information.state .top {
+  background: url("https://www.coruna.gal/IMG/P_Contenido_1453604804012_1099934327828_1200_1280_U_d0a75dc4164e5ecb3959ac124b704ab0.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#national-agreement a:link, a:visited, a:active {
+    text-decoration:none;
+}
+#national-agreement li {
+    color: gray;
+    padding-left: 30px;
+}
+#national-agreement .bg-orange {
+    background:#d8622b;color:#fff!important;
+}
+#national-agreement img {
+    width:100%;max-height:560px;
+}
+#national-agreementa {
+    color:#696969;
+}
+
+#state-agreement a:link, a:visited, a:active {
+    text-decoration:none;
+}
+#state-agreement li {
+    color: gray;
+    padding-left: 0px;
+}
+#state-agreement .bg-orange {
+    background:#d8622b;color:#fff!important;
+}
+#state-agreement img {
+    width:100%;max-height:560px;
+}
+#state-agreement {
+    color:#696969;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  width: 100%;
+
+  float: left;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  color: #222222;
+
+  padding: 0%;
+
+  margin: 0%;
+
+  margin-bottom: 0px;
+
+  cursor: pointer;
+}
+
+input[type="radio"][id="blue"]:checked + label {
+  background: #208bfd;
+}
+
+input[type="radio"][id="blue"]:checked ~ .red,
+input[type="radio"][id="blue"]:checked ~ .green {
+  width: 0;
+
+  height: 0;
+
+  padding: 0;
+
+  margin: 0;
+
+  opacity: 0;
+}
+
+input[type="radio"][id="red"]:checked + label {
+  background: #e60023;
+}
+
+input[type="radio"][id="red"]:checked ~ .blue,
+input[type="radio"][id="red"]:checked ~ .green {
+  width: 0;
+
+  height: 0;
+
+  padding: 0;
+
+  margin: 0;
+
+  opacity: 0;
+}
+
+input[type="radio"][id="green"]:checked + label {
+  background: #5cb85c;
+}
+
+input[type="radio"][id="green"]:checked ~ .blue,
+input[type="radio"][id="green"]:checked ~ .red {
+  width: 0;
+
+  height: 0;
+
+  padding: 0;
+
+  margin: 0;
+
+  opacity: 0;
+}
+
+.box {
+  width: 23%;
+
+  height: 100px;
+
+  float: left;
+
+  transition: all 1s;
+
+  margin: 0.5%;
+
+  padding: 0.5%;
+
+  line-height: 100px;
+}
+
+.green {
+  background: transparent;
+}
+
+.blue {
+  background: transparent;
+}
+
+.red {
+  background: transparent;
+}
