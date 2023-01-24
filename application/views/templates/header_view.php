@@ -25,7 +25,7 @@
       <div class="container" id="cont-img">
           <img src="<?php echo base_url('assets/images/logo_directiva_seccional.png'); ?>" class="img-logo" />
       </div>
-      <nav class="menum navbar navbar-light navbar-expand-md justify-content-center">
+      <!--<nav class="menum navbar navbar-light navbar-expand-md justify-content-center">
         <div class="container">
           <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
             <ul class="topBotomBordersOut navbar-nav mx-auto text-center">
@@ -41,6 +41,24 @@
             </ul>
           </div>
         </div>   
-      </nav>
+      </nav>-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ff7b3e !important;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" style="width: 100%;">
+          <a class="nav-item nav-link active" style="color: #FFFFFF !important" href="<?php echo base_url() ?>inicio/">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" style="color: #FFFFFF !important" href="<?php echo base_url() ?>multimedia/">Multimedia</a>
+          <a class="nav-item nav-link" style="color: #FFFFFF !important" href="<?php echo base_url() ?>convenios/">Convenios</a>
+          <a class="nav-item nav-link" style="color: #FFFFFF !important" href="<?php echo base_url() ?>convocatoriaycomunicado">Convocatoria y Comunicados</a>
+          <a class="nav-item nav-link" style="color: #FFFFFF !important" href="<?php echo base_url() ?>seccionsindical">Sección sindical</a>
+          <a class="nav-item nav-link" style="color: #FFFFFF !important" href="#">Servicios</a>
+          <a class="nav-item nav-link" style="color: #FFFFFF !important" href="<?php echo base_url() ?>biblioteca">Biblioteca</a>
+          <a class="nav-item nav-link" style="color: #FFFFFF !important" href="<?php echo base_url() ?>noticias">Noticias</a>
+          <a class="nav-item nav-link" style="color: #FFFFFF !important" href="<?php echo base_url() ?>contacto">Contacto</a>
+        </div>
+      </div>
+    </nav>
     </header>
     
